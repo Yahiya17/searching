@@ -3,7 +3,7 @@
 void main()
 {
 	clrscr();
-	int a[20],i,n,mid,l,h,k=0,f,m=0;
+	int a[20],i,n,mid,l,h,k=0,f;
 	printf("Enter size of array ");
 	scanf("%d",&n);
 	l=0,h=n-1;
@@ -18,8 +18,7 @@ void main()
 	while(l<=h)
 	{
 		
-		printf("%d\n",m);
-		m++;
+	
 		mid=(l+h)/2;
 		if(f==a[mid])
 		{
